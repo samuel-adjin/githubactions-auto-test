@@ -40,9 +40,6 @@ jobs:
           restore-keys: |
             npm-deps-${{ hashFiles('package-lock.json') }}
 
-      - name: Build
-        run: npm build
-
       - name: Bump Version
         run: npx auto version
 
@@ -50,6 +47,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          npm build
           git push --follow-tags
           npm publish
 
