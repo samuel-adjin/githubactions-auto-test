@@ -40,20 +40,20 @@ jobs:
           restore-keys: |
             npm-deps-${{ hashFiles('package-lock.json') }}
 
-      - name: Create Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} 
-
-        run: |
-          npm build 
-          npx auto version
-          git push --follow-tags
-          npm publish
-
-
       # - name: Create Release
       #   env:
       #     GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} 
+
       #   run: |
-      #     # npm build
-      #     npx auto latest
+      #     npm build 
+      #     npx auto version
+      #     git push --follow-tags
+      #     npm publish
+
+
+      - name: Create Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} 
+        run: |
+          npm build
+          npx auto latest
