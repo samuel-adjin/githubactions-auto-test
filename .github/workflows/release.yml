@@ -17,34 +17,54 @@
 
 name: Release
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   release:
     runs-on: ubuntu-latest
-    # if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
+    if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
       - name: Prepare repository
         run: git fetch --unshallow --tags
 
       - name: Use Node.js 12.x
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
-          node-version: 12.x
+          node-version: '12.x'
 
-      # - name: Cache node modules
-      #   uses: actions/cache@v1
-      #   with:
-      #     path: node_modules
-      #     key: npm-deps-${{ hashFiles('npm.lock') }}
-      #     restore-keys: |
-      #       npm-deps-${{ hashFiles('npm.lock') }}
+      - name: Cache node modules
+        uses: actions/cache@v2
+        with:
+          path: |
+            node_modules
+            .npm
+          key: npm-deps-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            npm-deps-${{ hashFiles('package-lock.json') }}
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Set up Git
+        run: |
+          git config user.email "${{ secrets.GITHUB_EMAIL }}"
+          git config user.name "${{ secrets.GITHUB_USERNAME }}"
+
+      - name: Bump Version
+        run: npx auto version
 
       - name: Create Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npm build
-          npx auto latest
+          git push --follow-tags
+          npm publish
