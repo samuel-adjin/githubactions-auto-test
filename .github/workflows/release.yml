@@ -41,7 +41,7 @@ jobs:
             npm-deps-${{ hashFiles('package-lock.json') }}
 
       - name: Build
-        run: npm run build
+        run: npm build
 
       - name: Bump Version
         run: npx auto version
