@@ -29,10 +29,10 @@ jobs:
       - name: Prepare repository
         run: git fetch --unshallow --tags
 
-      - name: Use Node.js 16
-        uses: actions/setup-node@v4
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
         with:
-          node-version: 16
+          node-version: 12.x
 
       # - name: Cache node modules
       #   uses: actions/cache@v1
@@ -44,7 +44,7 @@ jobs:
 
       - name: Create Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} 
+          token: ${{ secrets.GH_TOKEN }} 
         run: |
           npm build
           npx auto shipit
