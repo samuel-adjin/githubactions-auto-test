@@ -38,14 +38,15 @@ jobs:
         uses: actions/cache@v1
         with:
           path: node_modules
-          key: npm-deps-${{ hashFiles('npm.lock') }}
+          key: yarn-deps-${{ hashFiles('yarn.lock') }}
           restore-keys: |
-            npm-deps-${{ hashFiles('npm.lock') }}
+            yarn-deps-${{ hashFiles('yarn.lock') }}
 
       - name: Create Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          # npm install --frozen-lockfile
-          npm build
+          yarn install --frozen-lockfile
+          yarn build
           npx auto shipit
