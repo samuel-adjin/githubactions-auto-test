@@ -46,6 +46,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npm install --frozen-lockfile
+          # npm install --frozen-lockfile
           npm build
           npx auto shipit
