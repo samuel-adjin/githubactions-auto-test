@@ -55,6 +55,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} 
         run: |
+          npx auto latest
           npx auto version
           git push --follow-tags
-          npx auto latest
