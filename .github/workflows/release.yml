@@ -30,7 +30,7 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        if: "contains( github.event.pull_request.labels.*.name,  npx auto label --pr ${{ github.event.number }})"
+        if: "!!contains( github.event.pull_request.labels.*.name,  ' ')"
         run: |
           npm install
           npm ci
