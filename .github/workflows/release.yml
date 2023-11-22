@@ -30,7 +30,7 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        if: "contains(github.event_name, 'pull_request') && (contains(github.event.pull_request.labels.*.name, ' ') == true)"
+        if: "contains(github.event_name, 'pull_request') == true)"
         run: |
           npm install
           npm ci
