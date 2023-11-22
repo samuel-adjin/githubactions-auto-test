@@ -31,8 +31,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          npm install
-          npm ci
-          npx auto create-labels
+          # npm install
+          # npm ci
+          # npx auto create-labels
           npx auto shipit 
 # ggjnn gghgjbb  bbgghhj
