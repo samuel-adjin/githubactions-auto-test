@@ -42,7 +42,6 @@ jobs:
           npm install
           npm ci
           npx auto create-labels
-          npx auto version --only-publish-with-release-label
-          npx auto shipit 
+          npx auto latest --only-publish-with-release-label
 
     #  release major, minor, patch-done and 
