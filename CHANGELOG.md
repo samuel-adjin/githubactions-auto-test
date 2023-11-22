@@ -1,3 +1,32 @@
+# v2.0.0 (Wed Nov 22 2023)
+
+#### 💥 Breaking Change
+
+- only publish on release label in autorc file [#10](https://github.com/samuel-adjin/githubactions-auto-test/pull/10) ([@samuel-adjin](https://github.com/samuel-adjin))
+- publish on label [#7](https://github.com/samuel-adjin/githubactions-auto-test/pull/7) ([@samuel-adjin](https://github.com/samuel-adjin))
+- Test auto [#6](https://github.com/samuel-adjin/githubactions-auto-test/pull/6) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### 🚀 Enhancement
+
+- only publish on release label in autorc file [#14](https://github.com/samuel-adjin/githubactions-auto-test/pull/14) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### 🐛 Bug Fix
+
+- only publish on release label in autorc file [#13](https://github.com/samuel-adjin/githubactions-auto-test/pull/13) ([@samuel-adjin](https://github.com/samuel-adjin))
+- only publish on release label in autorc file [#12](https://github.com/samuel-adjin/githubactions-auto-test/pull/12) ([@samuel-adjin](https://github.com/samuel-adjin))
+- Test auto [#11](https://github.com/samuel-adjin/githubactions-auto-test/pull/11) ([@samuel-adjin](https://github.com/samuel-adjin))
+- publish on label [#9](https://github.com/samuel-adjin/githubactions-auto-test/pull/9) ([@samuel-adjin](https://github.com/samuel-adjin))
+- publish on label [#8](https://github.com/samuel-adjin/githubactions-auto-test/pull/8) ([@samuel-adjin](https://github.com/samuel-adjin))
+- Merge branch 'master' into test-auto [#4](https://github.com/samuel-adjin/githubactions-auto-test/pull/4) ([@samuel-adjin](https://github.com/samuel-adjin))
+- Test auto [#5](https://github.com/samuel-adjin/githubactions-auto-test/pull/5) ([@samuel-adjin](https://github.com/samuel-adjin))
+- Test auto [#3](https://github.com/samuel-adjin/githubactions-auto-test/pull/3) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v1.0.0 (Wed Nov 22 2023)
 
 #### The API has changed:
