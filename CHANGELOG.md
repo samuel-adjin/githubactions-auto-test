@@ -1,3 +1,15 @@
+# v4.2.1 (Wed Nov 22 2023)
+
+#### 🐛 Bug Fix
+
+- only publish on release label in autorc file [#20](https://github.com/samuel-adjin/githubactions-auto-test/pull/20) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v4.2.0 (Wed Nov 22 2023)
 
 #### 🚀 Enhancement
