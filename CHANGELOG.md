@@ -1,3 +1,21 @@
+# v4.3.0 (Wed Nov 22 2023)
+
+#### 🚀 Enhancement
+
+- if condition [#26](https://github.com/samuel-adjin/githubactions-auto-test/pull/26) ([@samuel-adjin](https://github.com/samuel-adjin))
+- only publish on release label in autorc file [#25](https://github.com/samuel-adjin/githubactions-auto-test/pull/25) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### 🐛 Bug Fix
+
+- if condition [#27](https://github.com/samuel-adjin/githubactions-auto-test/pull/27) ([@samuel-adjin](https://github.com/samuel-adjin))
+- only publish on release label in autorc file [#24](https://github.com/samuel-adjin/githubactions-auto-test/pull/24) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v4.2.2 (Wed Nov 22 2023)
 
 #### 🐛 Bug Fix
