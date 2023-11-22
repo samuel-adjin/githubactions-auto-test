@@ -35,4 +35,4 @@ jobs:
           npx auto create-labels
           npx auto shipit 
 
-    #  release major
+    #  release majo
