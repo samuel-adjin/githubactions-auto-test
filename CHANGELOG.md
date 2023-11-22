@@ -1,3 +1,15 @@
+# v7.0.1 (Wed Nov 22 2023)
+
+#### 🐛 Bug Fix
+
+- if condition [#51](https://github.com/samuel-adjin/githubactions-auto-test/pull/51) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v7.0.0 (Wed Nov 22 2023)
 
 #### 💥 Breaking Change
