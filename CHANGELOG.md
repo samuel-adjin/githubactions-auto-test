@@ -1,3 +1,20 @@
+# v12.0.0 (Wed Nov 22 2023)
+
+#### 💥 Breaking Change
+
+- if condition [#81](https://github.com/samuel-adjin/githubactions-auto-test/pull/81) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#80](https://github.com/samuel-adjin/githubactions-auto-test/pull/80) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### 🐛 Bug Fix
+
+- if condition [#79](https://github.com/samuel-adjin/githubactions-auto-test/pull/79) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v11.0.1 (Wed Nov 22 2023)
 
 #### 🐛 Bug Fix
