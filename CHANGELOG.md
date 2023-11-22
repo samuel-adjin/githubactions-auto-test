@@ -1,3 +1,16 @@
+# testing custom changelog title (Wed Nov 22 2023)
+
+#### ⚠️ Pushed to `master`
+
+- feat:testing ([@samuel-adjin](https://github.com/samuel-adjin))
+- feat(testing):release type added ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v0.0.8 (Wed Nov 22 2023)
 
 #### ⚠️ Pushed to `master`
