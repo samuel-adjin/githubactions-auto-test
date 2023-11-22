@@ -1,3 +1,16 @@
+# v5.0.3 (Wed Nov 22 2023)
+
+#### 🐛 Bug Fix
+
+- if condition [#32](https://github.com/samuel-adjin/githubactions-auto-test/pull/32) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#31](https://github.com/samuel-adjin/githubactions-auto-test/pull/31) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v5.0.2 (Wed Nov 22 2023)
 
 #### 🐛 Bug Fix
