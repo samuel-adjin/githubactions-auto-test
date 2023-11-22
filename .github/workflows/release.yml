@@ -44,8 +44,11 @@ jobs:
       - name: Auto release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+ 
         run: |
           npm install
           npm ci
-          npx auto shipit
-       
+          npx auto label --pr ${{ github.event.number }}
+          npx auto shipit 
+
+    #  release major, minor, patch-done and canary
