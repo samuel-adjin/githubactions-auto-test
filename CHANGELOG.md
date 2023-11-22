@@ -1,3 +1,15 @@
+# v15.0.1 (Wed Nov 22 2023)
+
+#### 🐛 Bug Fix
+
+- new changes [#95](https://github.com/samuel-adjin/githubactions-auto-test/pull/95) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v15.0.0 (Wed Nov 22 2023)
 
 #### 💥 Breaking Change
