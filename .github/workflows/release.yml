@@ -45,4 +45,4 @@ jobs:
           npx auto version --only-publish-with-release-label
           npx auto shipit 
 
-    #  release major, minor, patch-done and canary
+    #  release major, minor, patch-done and 
