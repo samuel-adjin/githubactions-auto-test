@@ -2,6 +2,23 @@
 
 #### 💥 Breaking Change
 
+- if condition [#73](https://github.com/samuel-adjin/githubactions-auto-test/pull/73) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#72](https://github.com/samuel-adjin/githubactions-auto-test/pull/72) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#71](https://github.com/samuel-adjin/githubactions-auto-test/pull/71) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#70](https://github.com/samuel-adjin/githubactions-auto-test/pull/70) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#69](https://github.com/samuel-adjin/githubactions-auto-test/pull/69) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#68](https://github.com/samuel-adjin/githubactions-auto-test/pull/68) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
+# v9.0.0 (Wed Nov 22 2023)
+
+#### 💥 Breaking Change
+
 - if condition [#68](https://github.com/samuel-adjin/githubactions-auto-test/pull/68) ([@samuel-adjin](https://github.com/samuel-adjin))
 
 #### Authors: 1
