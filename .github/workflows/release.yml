@@ -21,6 +21,8 @@ jobs:
           node-version: '16'
 
       - name: Debug Labels
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           npx auto label --pr ${{ github.event.number }}
 
