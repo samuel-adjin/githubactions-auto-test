@@ -21,17 +21,18 @@ jobs:
         with:
           node-version: '16'
 
-      # - name: Debug
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-      #   run: |
-      #     npx auto label --pr ${{ github.event.number }}
+      - name: Debug
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          npx auto label --pr ${{ github.event.number }}
+          echo ${{ github.event.label.name }} >> ${{ github.event.label.name != '' }}
 
 
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        if: ${{ github.event.label.name != 'release-major' }}
+        if: ${{ github.event.label.name != '' }}
         run: |
           npm install
           npm ci
