@@ -19,10 +19,6 @@ name: Auto publish and create release
 on:
   push:
     branches: [ master ]
-  #           - next
-  # pull_request:
-  #   branches:
-  #     - master
 jobs:
   autorelease:
     permissions:
@@ -36,11 +32,11 @@ jobs:
         uses: actions/checkout@v2
       - run: git fetch --unshallow --tags
       - name: Setup node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: '16'
-          registry-url: 'https://registry.npmjs.org'
-      - name: Auto release
+          cache: 'npm'
+      - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
  
