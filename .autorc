@@ -6,21 +6,5 @@
   "owner": "samuel-adjin",
   "repo": "githubactions-auto-test",
   "name": "samuel-adjin",
-  "email": "samuel.adjin@amalitech.org",
-  "labels": [
-    {
-      "name": "Version: Major",
-      "changelogTitle": "The API has changed:",
-      "description": "Add this label to a PR to create a major release",
-      "color": "blue",
-      "releaseType": "major"
-    }
-  ],
-  "shipit": {
-    "prerelease": true,
-    "message": "string",
-    "noChangelog": true,
-    "onlyPublishWithReleaseLabel": true
-    
-  }
+  "email": "samuel.adjin@amalitech.org"
 }
