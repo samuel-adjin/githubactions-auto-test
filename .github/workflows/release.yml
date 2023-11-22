@@ -18,8 +18,7 @@
 name: Auto publish and create release
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]
   #           - next
   # pull_request:
   #   branches:
