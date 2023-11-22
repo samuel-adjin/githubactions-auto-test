@@ -48,7 +48,6 @@ jobs:
         run: |
           npm install
           npm ci
-          npx auto label --releaseType "major"
           npx auto changelog --title "testing custom changelog title"
           npx auto create-labels
           npx auto shipit 
