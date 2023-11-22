@@ -1,3 +1,15 @@
+# v10.0.1 (Wed Nov 22 2023)
+
+#### 🐛 Bug Fix
+
+- if condition [#74](https://github.com/samuel-adjin/githubactions-auto-test/pull/74) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v9.0.0 (Wed Nov 22 2023)
 
 #### 💥 Breaking Change
