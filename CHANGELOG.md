@@ -1,3 +1,16 @@
+# v0.0.5 (Wed Nov 22 2023)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'master' of github.com:samuel-adjin/githubactions-auto-test ([@samuel-adjin](https://github.com/samuel-adjin))
+- feat(test):added label ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v0.0.4 (Wed Nov 22 2023)
 
 #### ⚠️ Pushed to `master`
