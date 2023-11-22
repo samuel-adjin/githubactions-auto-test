@@ -1,3 +1,20 @@
+# v6.1.0 (Wed Nov 22 2023)
+
+#### 🚀 Enhancement
+
+- if condition [#37](https://github.com/samuel-adjin/githubactions-auto-test/pull/37) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#36](https://github.com/samuel-adjin/githubactions-auto-test/pull/36) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### 🐛 Bug Fix
+
+- if condition [#35](https://github.com/samuel-adjin/githubactions-auto-test/pull/35) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v6.0.1 (Wed Nov 22 2023)
 
 #### 🐛 Bug Fix
