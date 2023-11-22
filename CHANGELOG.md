@@ -1,3 +1,32 @@
+# v7.0.0 (Wed Nov 22 2023)
+
+#### 💥 Breaking Change
+
+- if condition [#44](https://github.com/samuel-adjin/githubactions-auto-test/pull/44) ([@samuel-adjin](https://github.com/samuel-adjin))
+- Test auto [#43](https://github.com/samuel-adjin/githubactions-auto-test/pull/43) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### 🚀 Enhancement
+
+- if condition [#50](https://github.com/samuel-adjin/githubactions-auto-test/pull/50) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#49](https://github.com/samuel-adjin/githubactions-auto-test/pull/49) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#47](https://github.com/samuel-adjin/githubactions-auto-test/pull/47) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#46](https://github.com/samuel-adjin/githubactions-auto-test/pull/46) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#42](https://github.com/samuel-adjin/githubactions-auto-test/pull/42) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#41](https://github.com/samuel-adjin/githubactions-auto-test/pull/41) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### 🐛 Bug Fix
+
+- if condition [#48](https://github.com/samuel-adjin/githubactions-auto-test/pull/48) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#45](https://github.com/samuel-adjin/githubactions-auto-test/pull/45) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#40](https://github.com/samuel-adjin/githubactions-auto-test/pull/40) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#39](https://github.com/samuel-adjin/githubactions-auto-test/pull/39) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v6.1.1 (Wed Nov 22 2023)
 
 #### 🐛 Bug Fix
