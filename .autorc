@@ -20,7 +20,7 @@
     "prerelease": true,
     "message": "string",
     "noChangelog": true,
-    "onlyPublishWithReleaseLabel": true
+    "onlyGraduateWithReleaseLabel": true
     
   }
 }
