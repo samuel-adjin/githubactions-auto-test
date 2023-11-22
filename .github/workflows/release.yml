@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: '16'
 
-      - name: Debug Labels
+      - name: Debug
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
@@ -30,7 +30,7 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        if: ${{ github.event.label.name == npx auto label --pr ${{ github.event.number }} }}
+        if: ${{ github.event.label.name == auto label }}
         run: |
           npm install
           npm ci
