@@ -24,7 +24,7 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        if: ${{ github.event.pull_request.labels.*.name.length != 0 }}
+        if: ${{ github.event.pull_request.labels.*.name.length == 0 }}
         run: |
           npm install
           npm ci
