@@ -1,6 +1,6 @@
 name: Auto publish and create release
 on:
-  pull_request:
+  push:
     branches: [ master ]
     
 jobs:
