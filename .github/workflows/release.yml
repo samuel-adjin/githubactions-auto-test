@@ -44,4 +44,5 @@ jobs:
           npx auto create-labels
           npx auto shipit --only-publish-with-release-label
 
+
     #  release major, minor, patch-done and canary
