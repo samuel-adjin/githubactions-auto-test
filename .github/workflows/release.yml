@@ -1,3 +1,19 @@
+# # This is an example pipeline
+# name: Release
+# on: [push]
+# jobs:
+#   release:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v3
+#         with:
+#           fetch-depth: 0 
+#           token: ${{ secrets.GH_TOKEN }} 
+
+#       - name: release
+#         uses: mbround18/auto@v1.5.0
+#         with:
+#           token: ${{ secrets.GH_TOKEN }} 
 
 name: Auto publish and create release
 on:
@@ -26,9 +42,6 @@ jobs:
           npm install
           npm ci
           npx auto create-labels
-      - name: publish if pr has label
-        if: auto shipit --only-publish-with-release-label == true
-        run: |
-          npx auto shipit
+          npx auto shipit --only-publish-with-release-label
 
-# test minor
+    #  release major, minor, patch-done and canary
