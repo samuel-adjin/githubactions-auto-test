@@ -49,4 +49,4 @@ jobs:
         run: |
           npx auto shipit 
 
-    #  release major, minor, patch-done 
+    #  release major, minor
