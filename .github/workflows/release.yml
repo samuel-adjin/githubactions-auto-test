@@ -2,7 +2,8 @@ name: Auto publish and create release
 on:
   push:
     branches: [ master ]
-
+  pull_request:
+    branches: [ master ]
 jobs:
   autorelease:
     permissions:
@@ -30,10 +31,9 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        if: "contains(github.event_name, 'pull_request')"
         run: |
           npm install
           npm ci
           npx auto create-labels
-          npx auto shipit 
+          npx auto shipit --only-publish-with-release-label
 # ggjnn gghgjbb
