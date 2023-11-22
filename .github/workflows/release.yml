@@ -43,6 +43,8 @@ jobs:
           npm ci
           npx auto create-labels
       - name: release when label is present
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         if: "contains(github.event_name, 'pull_request') && contains(github.event.pull_request.labels.*.name,  npx auto label --pr ${{ github.event.number }})"
         run: |
           npx auto shipit 
