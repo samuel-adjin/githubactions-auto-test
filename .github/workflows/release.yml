@@ -30,7 +30,6 @@ jobs:
           npm ci
           npx auto create-labels
           npx auto shipit
-# gjhkhk jkk khkhfg kgkkh
 
 
 
