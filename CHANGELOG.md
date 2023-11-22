@@ -1,3 +1,19 @@
+# v1.0.0 (Wed Nov 22 2023)
+
+#### The API has changed:
+
+- test merge [#2](https://github.com/samuel-adjin/githubactions-auto-test/pull/2) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### 🐛 Bug Fix
+
+- Version: Major [#1](https://github.com/samuel-adjin/githubactions-auto-test/pull/1) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v0.0.10 (Wed Nov 22 2023)
 
 #### ⚠️ Pushed to `master`
