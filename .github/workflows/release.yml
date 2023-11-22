@@ -24,7 +24,7 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        if: "!contains(toJson(github.event.pull_request.labels), ‘[]’)"
+        if: "!contains(toJson(github.event.pull_request.labels), [])"
         run: |
           npm install
           npm ci
