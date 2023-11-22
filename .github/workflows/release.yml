@@ -26,19 +26,19 @@ jobs:
       #     GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       #   run: |
       #     npx auto label --pr ${{ github.event.number }}
-      - name: Get PR labels
-        id: pr-labels
-        uses: joerick/pr-labels-action@v1.0.8
-      - run: |
-          bin/publish_flimbomble_test_results
-        if: contains(steps.pr-labels.outputs.labels, '  ')
+
 
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        if: ${{ github.event.label.name == 'release-major' }}
         run: |
           npm install
           npm ci
           npx auto create-labels
           npx auto shipit
 # gjhkhk jkk khkhfg
+
+
+
+
