@@ -1,3 +1,19 @@
+# v0.0.3 (Wed Nov 22 2023)
+
+#### ⚠️ Pushed to `master`
+
+- feat(test):new changes ([@samuel-adjin](https://github.com/samuel-adjin))
+- feat(test):testing it ([@samuel-adjin](https://github.com/samuel-adjin))
+- new file added ([@samuel-adjin](https://github.com/samuel-adjin))
+- new changes made ([@samuel-adjin](https://github.com/samuel-adjin))
+- changed workflow script-for auto ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v0.0.2 (Tue Nov 21 2023)
 
 #### ⚠️ Pushed to `master`
