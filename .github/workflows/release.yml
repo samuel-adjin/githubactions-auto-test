@@ -1,6 +1,6 @@
 name: Auto publish and create release
 on:
-  push:
+  pull_request:
     branches: [ master ]
     
 jobs:
@@ -34,5 +34,5 @@ jobs:
           npm install
           npm ci
           npx auto create-labels
-          npx auto shipit --prerelease
+          npx auto shipit 
 # ggjnn gghgjbb  bbgghhj
