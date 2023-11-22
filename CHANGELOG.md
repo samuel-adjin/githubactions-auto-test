@@ -1,3 +1,15 @@
+# v0.0.10 (Wed Nov 22 2023)
+
+#### ⚠️ Pushed to `master`
+
+- major:testing ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v0.0.9 (Wed Nov 22 2023)
 
 #### ⚠️ Pushed to `master`
