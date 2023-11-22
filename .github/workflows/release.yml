@@ -1,20 +1,3 @@
-# # This is an example pipeline
-# name: Release
-# on: [push]
-# jobs:
-#   release:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v3
-#         with:
-#           fetch-depth: 0 
-#           token: ${{ secrets.GH_TOKEN }} 
-
-#       - name: release
-#         uses: mbround18/auto@v1.5.0
-#         with:
-#           token: ${{ secrets.GH_TOKEN }} 
-
 name: Auto publish and create release
 on:
   push:
@@ -26,7 +9,8 @@ jobs:
       issues: write
       pull-requests: write
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
+    if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci') && contains(github.event_name, 'pull_request') && contains(github.event.pull_request.labels.*.name,  npx auto label --pr ${{ github.event.number }})"
+
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -35,6 +19,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '16'
+
+      - name: Debug Labels
+        run: |
+          echo "Labels: ${{ github.event.pull_request.labels }}"
+
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -42,11 +31,6 @@ jobs:
           npm install
           npm ci
           npx auto create-labels
-      - name: release when label is present
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        if: "contains(github.event_name, 'pull_request') && contains(github.event.pull_request.labels.*.name,  npx auto label --pr ${{ github.event.number }})"
-        run: |
           npx auto shipit 
 
     #  release major
