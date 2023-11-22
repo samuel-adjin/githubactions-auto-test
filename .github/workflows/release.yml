@@ -22,11 +22,11 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
- 
+
         run: |
           npm install
           npm ci
           npx auto create-labels
           npx auto shipit
 
-    #  release major, minor, patch-done and canary
+
