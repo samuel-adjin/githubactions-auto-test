@@ -30,7 +30,7 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        if: ${{ github.event.label.name == 'minor' }}
+        if: ${{ github.event.label.name == npx auto label --pr ${{ github.event.number }} }}
         run: |
           npm install
           npm ci
