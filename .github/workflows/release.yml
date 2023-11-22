@@ -36,4 +36,4 @@ jobs:
           npm ci
           npx auto create-labels
           npx auto shipit --only-publish-with-release-label
-# ggjnn gghgjbb
+# ggjnn gghgjbb  bb
