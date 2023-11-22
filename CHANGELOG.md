@@ -1,3 +1,15 @@
+# v6.0.0 (Wed Nov 22 2023)
+
+#### 💥 Breaking Change
+
+- if condition [#33](https://github.com/samuel-adjin/githubactions-auto-test/pull/33) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v5.0.3 (Wed Nov 22 2023)
 
 #### 🐛 Bug Fix
