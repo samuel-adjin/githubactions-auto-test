@@ -1,3 +1,16 @@
+# testing custom changelog title (Wed Nov 22 2023)
+
+#### ⚠️ Pushed to `master`
+
+- feat(testing):changes to title of changelog ([@samuel-adjin](https://github.com/samuel-adjin))
+- Merge branch 'master' of github.com:samuel-adjin/githubactions-auto-test ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v0.0.7 (Wed Nov 22 2023)
 
 #### ⚠️ Pushed to `master`
