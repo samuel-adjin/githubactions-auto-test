@@ -9,7 +9,7 @@ jobs:
       issues: write
       pull-requests: write
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci') && contains(github.event_name, 'pull_request') && contains(github.event.pull_request.labels.*.name,  npx auto label --pr ${{ github.event.number }})"
+    if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
 
     steps:
       - name: Checkout
@@ -22,7 +22,7 @@ jobs:
 
       - name: Debug Labels
         run: |
-          echo "Labels: ${{ github.event.pull_request.labels }}"
+          npx auto label --pr ${{ github.event.number }}
 
       - name: Release
         env:
