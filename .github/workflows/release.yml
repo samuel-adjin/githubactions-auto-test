@@ -34,5 +34,5 @@ jobs:
           npm install
           npm ci
           npx auto create-labels
-          npx auto shipit 
+          npx auto shipit --prerelease
 # ggjnn gghgjbb  bbgghhj
