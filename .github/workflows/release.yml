@@ -2,8 +2,7 @@ name: Auto publish and create release
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    
 jobs:
   autorelease:
     permissions:
