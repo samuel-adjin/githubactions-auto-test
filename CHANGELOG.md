@@ -1,3 +1,23 @@
+# v15.0.0 (Wed Nov 22 2023)
+
+#### 💥 Breaking Change
+
+- new changes [#94](https://github.com/samuel-adjin/githubactions-auto-test/pull/94) ([@samuel-adjin](https://github.com/samuel-adjin))
+- new changes [#93](https://github.com/samuel-adjin/githubactions-auto-test/pull/93) ([@samuel-adjin](https://github.com/samuel-adjin))
+- new changes [#92](https://github.com/samuel-adjin/githubactions-auto-test/pull/92) ([@samuel-adjin](https://github.com/samuel-adjin))
+- new changes [#91](https://github.com/samuel-adjin/githubactions-auto-test/pull/91) ([@samuel-adjin](https://github.com/samuel-adjin))
+- new changes [#89](https://github.com/samuel-adjin/githubactions-auto-test/pull/89) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### 🐛 Bug Fix
+
+- new changes [#90](https://github.com/samuel-adjin/githubactions-auto-test/pull/90) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v14.0.1 (Wed Nov 22 2023)
 
 #### 🐛 Bug Fix
