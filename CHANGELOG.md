@@ -1,3 +1,28 @@
+# v7.0.2 (Wed Nov 22 2023)
+
+#### 🐛 Bug Fix
+
+- if condition [#65](https://github.com/samuel-adjin/githubactions-auto-test/pull/65) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#64](https://github.com/samuel-adjin/githubactions-auto-test/pull/64) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#63](https://github.com/samuel-adjin/githubactions-auto-test/pull/63) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#62](https://github.com/samuel-adjin/githubactions-auto-test/pull/62) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#61](https://github.com/samuel-adjin/githubactions-auto-test/pull/61) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#60](https://github.com/samuel-adjin/githubactions-auto-test/pull/60) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#59](https://github.com/samuel-adjin/githubactions-auto-test/pull/59) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#58](https://github.com/samuel-adjin/githubactions-auto-test/pull/58) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#57](https://github.com/samuel-adjin/githubactions-auto-test/pull/57) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#56](https://github.com/samuel-adjin/githubactions-auto-test/pull/56) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#55](https://github.com/samuel-adjin/githubactions-auto-test/pull/55) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#54](https://github.com/samuel-adjin/githubactions-auto-test/pull/54) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#53](https://github.com/samuel-adjin/githubactions-auto-test/pull/53) ([@samuel-adjin](https://github.com/samuel-adjin))
+- if condition [#52](https://github.com/samuel-adjin/githubactions-auto-test/pull/52) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v7.0.1 (Wed Nov 22 2023)
 
 #### 🐛 Bug Fix
