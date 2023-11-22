@@ -1,6 +1,12 @@
-# v0.0.7 (Wed Nov 22 2023)
+# v0.0.6 (Wed Nov 22 2023)
 
+#### ⚠️ Pushed to `master`
 
+- feat(testing):changes to label ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
 
 ---
 
