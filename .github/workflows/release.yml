@@ -31,7 +31,7 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        if: ${{ github.event.label.name == 'release-major' }}
+        if: ${{ github.event.label.name != 'release-major' }}
         run: |
           npm install
           npm ci
