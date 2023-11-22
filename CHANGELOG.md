@@ -1,3 +1,15 @@
+# v5.0.2 (Wed Nov 22 2023)
+
+#### 🐛 Bug Fix
+
+- if condition [#30](https://github.com/samuel-adjin/githubactions-auto-test/pull/30) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v5.0.1 (Wed Nov 22 2023)
 
 #### 🐛 Bug Fix
