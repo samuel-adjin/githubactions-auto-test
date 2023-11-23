@@ -28,7 +28,7 @@ jobs:
           npm install
           npm ci
           npx auto create-labels
-          npx auto release
+          npx auto shipit
 
 #ghgh  jjkkk jjjj jjk ghgh hjhjhj
 
