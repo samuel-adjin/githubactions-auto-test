@@ -39,8 +39,7 @@ jobs:
 
       - name: run script
         if: github.event.pull_request.labels[0] != null
-        run: echo ${{ length(github.event.pull_request.labels.*.name) }}
-
+        run: echo ${{ github.event.pull_request.labels.*.name[0] }
 
       # - name: Release
       #   env:
