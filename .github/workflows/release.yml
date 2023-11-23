@@ -16,8 +16,7 @@ jobs:
     if: |
       contains(github.event.head_commit.message, 'ci skip') == false &&
       contains(github.event.head_commit.message, 'skip ci') == false &&
-      github.event.pull_request.labels.*.name != null &&
-      github.event.pull_request.labels.*.name != []
+      length(github.event.pull_request.labels.*.name) > 0
 
     steps:
       - name: Checkout
