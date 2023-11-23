@@ -33,7 +33,7 @@ jobs:
         
       - name: run script
         # if: github.event.pull_request.labels[0] != null
-        run: echo hello
+        run: echo "$github.event.pull_request.labels[0]"
 
 
       # - name: Release
