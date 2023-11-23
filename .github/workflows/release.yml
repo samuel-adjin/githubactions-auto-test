@@ -21,15 +21,30 @@ jobs:
         with:
           node-version: '16'
 
-      - name: Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        if: "!contains(toJson(github.event.pull_request.labels), '[]')"
+
+      - name: get label length
+        id: getlength
+        env: 
+          labels: ${{ toJson(github.event.pull_request.labels) }}
         run: |
-          npm install
-          npm ci
-          npx auto create-labels
-          npx auto shipit
+          echo "$labels"
+          LL=$(echo $labels | jq '. | length' )
+          echo "::set-output name=Label_Length::$LL"
+        
+      - name: run script
+        if: steps.getlength.outputs.Label_Length >= 1 
+        run: echo hello
+
+
+      # - name: Release
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      #   if: "!contains(toJson(github.event.pull_request.labels), '[]')"
+      #   run: |
+      #     npm install
+      #     npm ci
+      #     npx auto create-labels
+      #     npx auto shipit
 
 #ghgh  jjkkk
 
