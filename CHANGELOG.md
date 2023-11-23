@@ -1,3 +1,15 @@
+# v16.2.0 (Thu Nov 23 2023)
+
+#### 🚀 Enhancement
+
+- testing arrays [#124](https://github.com/samuel-adjin/githubactions-auto-test/pull/124) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v16.1.0 (Thu Nov 23 2023)
 
 #### 🚀 Enhancement
