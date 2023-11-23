@@ -2,10 +2,10 @@
   "plugins": [
     "git-tag"
   ],
-  
+  "onlyPublishWithReleaseLabel": true,
   "owner": "samuel-adjin",
   "repo": "githubactions-auto-test",
   "name": "samuel-adjin",
-  "email": "samuel.adjin@amalitech.org",
-  "onlyPublishWithReleaseLabel": true
+  "email": "samuel.adjin@amalitech.org"
+  
 }
