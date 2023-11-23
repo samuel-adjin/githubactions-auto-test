@@ -22,14 +22,14 @@ jobs:
           node-version: '16'
 
 
-      - name: get label length
-        id: getlength
-        env: 
-          labels: ${{ toJson(github.event.pull_request.labels) }}
-        run: |
-          echo "$labels"
-          LL=$(echo $labels | jq '. | length' )
-          echo "::set-output name=Label_Length::$LL"
+      # - name: get label length
+      #   id: getlength
+      #   env: 
+      #     labels: ${{ toJson(github.event.pull_request.labels) }}
+      #   run: |
+      #     echo "$labels"
+      #     LL=$(echo $labels | jq '. | length' )
+      #     echo "::set-output name=Label_Length::$LL"
         
       - name: run script
         if: github.event.pull_request.labels[0] != null
