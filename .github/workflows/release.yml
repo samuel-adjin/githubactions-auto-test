@@ -1,6 +1,6 @@
 name: Auto publish and create release
 on:
-  pull_request:
+  push:
     branches: [ master ]
     
 jobs:
@@ -31,6 +31,12 @@ jobs:
       #     LL=$(echo $labels | jq '. | length' )
       #     echo "::set-output name=Label_Length::$LL"
         
+
+      - name: get label length
+        id: getlength
+        env: 
+          labels: ${{ npx auto label }} 
+        run: echo "$labels"
       - name: run script
         # if: github.event.pull_request.labels[0] != null
         run: echo ${{ github.event.pull_request.labels[0] }}
