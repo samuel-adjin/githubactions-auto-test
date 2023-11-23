@@ -1,10 +1,10 @@
 name: Auto publish and create release
 on:
-  push:
-    branches: [ master ]
-    # pull_request:
-    #   types:
-    #     - "labeled" 
+  # push:
+  #   branches: [ master ]
+    pull_request:
+      types:
+        - "labeled" 
 jobs:
   autorelease:
     permissions:
@@ -12,11 +12,7 @@ jobs:
       issues: write
       pull-requests: write
     runs-on: ubuntu-latest
-    # if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
-    if: |
-      contains(github.event.head_commit.message, 'ci skip') == false &&
-      contains(github.event.head_commit.message, 'skip ci') == false &&
-      ${{ github.event.pull_request.labels != 'null' && github.event.pull_request.labels != '[]' }}
+    if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
 
     steps:
       - name: Checkout
@@ -39,7 +35,7 @@ jobs:
         
 
       - name: run script
-        # if: github.event.pull_request.labels[0] != null
+        if: github.event.pull_request.labels[0] != null
         run: echo ${{ github.event.pull_request.labels.*.name[0] }}
 
       # - name: Release
