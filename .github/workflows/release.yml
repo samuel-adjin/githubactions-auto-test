@@ -1,7 +1,5 @@
 name: Auto publish and create release
 on:
-  # push:
-  #   branches: [ master ]
     pull_request:
       branches:
         - master
@@ -24,28 +22,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '16'
-      
-
-      # - name: Get Pull Request Labels
-      #   id: get_labels
-      #   run: |
-      #     PR_URL=$(curl -s "https://api.github.com/repos/${GITHUB_REPOSITORY}/commits/${GITHUB_SHA}/pulls" | jq -r '.[0].url')
-      #     LABELS=$(curl -s "${PR_URL}/labels" | jq -r '.[].name')
-      #     echo "PR Labels: $LABELS"
-
-      - name: run script
-        # if: github.event.pull_request.labels[0] != null
-        run: echo ${{ github.event.pull_request.labels.*.name[0] }}
-
-      # - name: Release
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-      #   if: "!contains(toJson(github.event.pull_request.labels), '[]')"
-      #   run: |
-      #     npm install
-      #     npm ci
-      #     npx auto create-labels
-      #     npx auto shipit
+ 
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          npm install
+          npm ci
+          npx auto create-labels
+          npx auto shipit
 
 #ghgh  jjkkk jjjj jjk ghgh hjhjhj
 
