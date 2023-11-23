@@ -2,7 +2,7 @@
   "plugins": [
     "git-tag"
   ],
-  "onlyPublishWithReleaseLabel": false,
+  "onlyPublishWithReleaseLabel": true,
   "owner": "samuel-adjin",
   "repo": "githubactions-auto-test",
   "name": "samuel-adjin",
