@@ -1,3 +1,46 @@
+# v16.0.0 (Thu Nov 23 2023)
+
+#### 💥 Breaking Change
+
+- testing arrays [#120](https://github.com/samuel-adjin/githubactions-auto-test/pull/120) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#119](https://github.com/samuel-adjin/githubactions-auto-test/pull/119) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#118](https://github.com/samuel-adjin/githubactions-auto-test/pull/118) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#117](https://github.com/samuel-adjin/githubactions-auto-test/pull/117) ([@samuel-adjin](https://github.com/samuel-adjin))
+- Test auto [#116](https://github.com/samuel-adjin/githubactions-auto-test/pull/116) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#114](https://github.com/samuel-adjin/githubactions-auto-test/pull/114) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#108](https://github.com/samuel-adjin/githubactions-auto-test/pull/108) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#107](https://github.com/samuel-adjin/githubactions-auto-test/pull/107) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#106](https://github.com/samuel-adjin/githubactions-auto-test/pull/106) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#103](https://github.com/samuel-adjin/githubactions-auto-test/pull/103) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#102](https://github.com/samuel-adjin/githubactions-auto-test/pull/102) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#101](https://github.com/samuel-adjin/githubactions-auto-test/pull/101) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#98](https://github.com/samuel-adjin/githubactions-auto-test/pull/98) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#97](https://github.com/samuel-adjin/githubactions-auto-test/pull/97) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### 🚀 Enhancement
+
+- testing arrays [#105](https://github.com/samuel-adjin/githubactions-auto-test/pull/105) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#104](https://github.com/samuel-adjin/githubactions-auto-test/pull/104) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#100](https://github.com/samuel-adjin/githubactions-auto-test/pull/100) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#99](https://github.com/samuel-adjin/githubactions-auto-test/pull/99) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### 🐛 Bug Fix
+
+- testing arrays [#121](https://github.com/samuel-adjin/githubactions-auto-test/pull/121) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#115](https://github.com/samuel-adjin/githubactions-auto-test/pull/115) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#113](https://github.com/samuel-adjin/githubactions-auto-test/pull/113) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#112](https://github.com/samuel-adjin/githubactions-auto-test/pull/112) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#111](https://github.com/samuel-adjin/githubactions-auto-test/pull/111) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#110](https://github.com/samuel-adjin/githubactions-auto-test/pull/110) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#109](https://github.com/samuel-adjin/githubactions-auto-test/pull/109) ([@samuel-adjin](https://github.com/samuel-adjin))
+- testing arrays [#96](https://github.com/samuel-adjin/githubactions-auto-test/pull/96) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v15.0.1 (Wed Nov 22 2023)
 
 #### 🐛 Bug Fix
