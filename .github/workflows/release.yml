@@ -1,7 +1,12 @@
 name: Auto publish and create release
 on:
-  push:
-    branches: [ master ]
+  # push:
+  #   branches: [ master ]
+    pull_request:
+      types:
+        - "labeled"
+    
+    
     
 jobs:
   autorelease:
@@ -32,14 +37,9 @@ jobs:
       #     echo "::set-output name=Label_Length::$LL"
         
 
-      - name: get label length
-        id: getlength
-        env: 
-          labels: ${{ npx auto label }} 
-        run: echo "$labels"
       - name: run script
-        # if: github.event.pull_request.labels[0] != null
-        run: echo ${{ github.event.pull_request.labels[0] }}
+        if: github.event.pull_request.labels[0] != null
+        run: echo ${{ github.event.pull_request.labels.*.name }}
 
 
       # - name: Release
