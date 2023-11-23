@@ -1,10 +1,10 @@
 name: Auto publish and create release
 on:
-  # push:
-  #   branches: [ master ]
-    pull_request:
-      types:
-        - "labeled" 
+  push:
+    branches: [ master ]
+    # pull_request:
+    #   types:
+    #     - "labeled" 
 jobs:
   autorelease:
     permissions:
@@ -22,20 +22,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '16'
+      
 
-
-      # - name: get label length
-      #   id: getlength
-      #   env: 
-      #     labels: ${{ toJson(github.event.pull_request.labels) }}
-      #   run: |
-      #     echo "$labels"
-      #     LL=$(echo $labels | jq '. | length' )
-      #     echo "::set-output name=Label_Length::$LL"
-        
+      - name: Get Pull Request Labels
+        id: get_labels
+        run: |
+          PR_URL=$(curl -s "https://api.github.com/repos/${GITHUB_REPOSITORY}/commits/${GITHUB_SHA}/pulls" | jq -r '.[0].url')
+          LABELS=$(curl -s "${PR_URL}/labels" | jq -r '.[].name')
+          echo "PR Labels: $LABELS"
 
       - name: run script
-        if: github.event.pull_request.labels[0] != null
+        # if: github.event.pull_request.labels[0] != null
         run: echo ${{ github.event.pull_request.labels.*.name[0] }}
 
       # - name: Release
