@@ -1,3 +1,19 @@
+# v16.1.0 (Thu Nov 23 2023)
+
+#### 🚀 Enhancement
+
+- testing arrays [#123](https://github.com/samuel-adjin/githubactions-auto-test/pull/123) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### 🐛 Bug Fix
+
+- testing arrays [#122](https://github.com/samuel-adjin/githubactions-auto-test/pull/122) ([@samuel-adjin](https://github.com/samuel-adjin))
+
+#### Authors: 1
+
+- Samuel ([@samuel-adjin](https://github.com/samuel-adjin))
+
+---
+
 # v16.0.0 (Thu Nov 23 2023)
 
 #### 💥 Breaking Change
