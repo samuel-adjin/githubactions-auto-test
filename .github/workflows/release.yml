@@ -32,7 +32,7 @@ jobs:
           echo "::set-output name=Label_Length::$LL"
         
       - name: run script
-        if: steps.getlength.outputs.Label_Length >= 1 
+        if: github.event.pull_request.labels[0] != null
         run: echo hello
 
 
